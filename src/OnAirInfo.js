@@ -18,7 +18,7 @@ function OnAirInfo() {
       console.log("This will run every second!");
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [image, artist, song]);
 
   return (
       <div className='OnAirInfo'>

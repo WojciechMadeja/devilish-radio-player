@@ -23,7 +23,7 @@ function App() {
         setRadioTitle(response.data.basic.title);
       });
     Howler.volume(0.8);
-  }, []);
+  }, [radioImage]);
   return (
     <div className='App'>
       <img className='App-radio-logo' src={!radioImage ? process.env.PUBLIC_URL+"/images/radio-logo.png" : radioImage} alt='logo' />
