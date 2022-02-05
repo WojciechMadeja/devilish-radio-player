@@ -7,7 +7,7 @@ function OnAirInfo() {
   const [song, setSong] = useState();
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("https://onair.play.cz/json/casrock.json")
+      fetch("http://onair.play.cz/json/casrock.json")
         .then((response) => response.json())
         .then((response) => {
           setImage(response.img);
@@ -18,7 +18,7 @@ function OnAirInfo() {
       console.log("This will run every second!");
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
       <div className='OnAirInfo'>
