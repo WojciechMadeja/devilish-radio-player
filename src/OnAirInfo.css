@@ -1,0 +1,20 @@
+.OnAirInfo {
+  /* background-image: url(./assets/images/panel.svg); */
+  background-color: #B5B5B5;
+  width: 100vw;
+  min-height: 300px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.OnAirInfo-image {
+   margin-top: 5px;
+  height: 155px;
+  width: 155px;
+}
+.OnAirInfo-artist {
+  font-size: 1.3em;
+}

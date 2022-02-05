@@ -1,0 +1,334 @@
+{
+  "declaration": {
+    "attributes": { "version": "1.0", "encoding": "UTF-8", "standalone": "no" }
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "xml",
+      "elements": [
+        {
+          "type": "element",
+          "name": "data",
+          "elements": [
+            {
+              "type": "element",
+              "name": "basic",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "title",
+                  "elements": [{ "type": "cdata", "cdata": "Rádio Čas Rock" }]
+                },
+                {
+                  "type": "element",
+                  "name": "description",
+                  "elements": [
+                    { "type": "cdata", "cdata": "Pravé Rockové rádio" }
+                  ]
+                },
+                { "type": "element", "name": "description_long" },
+                {
+                  "type": "element",
+                  "name": "shortcut",
+                  "elements": [{ "type": "cdata", "cdata": "casrock" }]
+                },
+                {
+                  "type": "element",
+                  "name": "listeners",
+                  "elements": [{ "type": "cdata", "cdata": "974" }]
+                },
+                {
+                  "type": "element",
+                  "name": "rating",
+                  "elements": [{ "type": "cdata", "cdata": "1" }]
+                },
+                {
+                  "type": "element",
+                  "name": "url",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "http://www.play.cz/radio-cas-rock"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "cooluri",
+                  "elements": [{ "type": "cdata", "cdata": "radio-cas-rock" }]
+                },
+                {
+                  "type": "element",
+                  "name": "logo",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "http://api.play.cz/static/radio_logo/casrock.jpg"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "logoimg_s",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "http://api.play.cz/static/radio_logo/t90/casrock.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "logoimg_m",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "http://api.play.cz/static/radio_logo/t200/casrock.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "logoimg_b",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "http://api.play.cz/static/radio_logo/t500/casrock.png"
+                    }
+                  ]
+                },
+                { "type": "element", "name": "background_img" },
+                {
+                  "type": "element",
+                  "name": "onair",
+                  "elements": [{ "type": "cdata", "cdata": "true" }]
+                },
+                {
+                  "type": "element",
+                  "name": "show_pls",
+                  "elements": [{ "type": "cdata", "cdata": "false" }]
+                },
+                {
+                  "type": "element",
+                  "name": "feed",
+                  "elements": [{ "type": "cdata", "cdata": "false" }]
+                },
+                {
+                  "type": "element",
+                  "name": "podcast",
+                  "elements": [{ "type": "cdata", "cdata": "false" }]
+                },
+                {
+                  "type": "element",
+                  "name": "ordering",
+                  "elements": [{ "type": "cdata", "cdata": "492" }]
+                },
+                {
+                  "type": "element",
+                  "name": "style",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "loop",
+                      "elements": [{ "type": "cdata", "cdata": "rock" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "style_title",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "loop",
+                      "elements": [{ "type": "cdata", "cdata": "Rock" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "region",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "loop",
+                      "elements": [
+                        { "type": "cdata", "cdata": "moravskoslezky" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "region_title",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "loop",
+                      "elements": [
+                        { "type": "cdata", "cdata": "Moravskoslezký kraj" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "extended",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "shortcut",
+                  "elements": [{ "type": "cdata", "cdata": "casrock" }]
+                },
+                { "type": "element", "name": "modules" },
+                {
+                  "type": "element",
+                  "name": "config",
+                  "elements": [
+                    { "type": "element", "name": "ga" },
+                    { "type": "element", "name": "rss" },
+                    { "type": "element", "name": "podcast" }
+                  ]
+                },
+                { "type": "element", "name": "skin" },
+                {
+                  "type": "element",
+                  "name": "last_update",
+                  "elements": [
+                    { "type": "cdata", "cdata": "2021-05-18 13:59:40" }
+                  ]
+                },
+                { "type": "element", "name": "mod_by" }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "radio_info",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "web1",
+                  "elements": [
+                    { "type": "cdata", "cdata": "https://casrock.cz/" }
+                  ]
+                },
+                { "type": "element", "name": "web2" },
+                {
+                  "type": "element",
+                  "name": "address",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "Radio Čas Rock, Stavební 992, 708 00 Ostrava-Poruba"
+                    }
+                  ]
+                },
+                { "type": "element", "name": "phone1" },
+                {
+                  "type": "element",
+                  "name": "phone2",
+                  "elements": [
+                    {
+                      "type": "cdata",
+                      "cdata": "59 6969 111 (záznamník: 59 6969 199)"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "email1",
+                  "elements": [
+                    { "type": "cdata", "cdata": "studio@casrock.cz" }
+                  ]
+                },
+                { "type": "element", "name": "email2" },
+                {
+                  "type": "element",
+                  "name": "social",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "facebook",
+                      "elements": [
+                        {
+                          "type": "cdata",
+                          "cdata": "https://www.facebook.com/radiocasrock"
+                        }
+                      ]
+                    },
+                    { "type": "element", "name": "twitter" },
+                    { "type": "element", "name": "gplus" },
+                    { "type": "element", "name": "youtube" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "shortcut",
+          "elements": [{ "type": "cdata", "cdata": "casrock" }]
+        },
+        {
+          "type": "element",
+          "name": "_lifetime",
+          "elements": [{ "type": "cdata", "cdata": "600" }]
+        },
+        {
+          "type": "element",
+          "name": "_cachedAt",
+          "elements": [{ "type": "cdata", "cdata": "2021-12-08 19:44:20" }]
+        },
+        {
+          "type": "element",
+          "name": "_expireAt",
+          "elements": [{ "type": "cdata", "cdata": "2021-12-08 19:54:20" }]
+        },
+        {
+          "type": "element",
+          "name": "_cacheID",
+          "elements": [
+            {
+              "type": "cdata",
+              "cdata": "API-getRadioInfo~xml-NAN-b44289029463fdb4c7ec558a350e2789"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "_moduleVersion",
+          "elements": [{ "type": "cdata", "cdata": "1.13" }]
+        },
+        {
+          "type": "element",
+          "name": "_server",
+          "elements": [{ "type": "cdata", "cdata": "API" }]
+        },
+        {
+          "type": "element",
+          "name": "_country",
+          "elements": [{ "type": "cdata", "cdata": "NAN" }]
+        },
+        {
+          "type": "element",
+          "name": "_accesskey",
+          "elements": [{ "type": "cdata", "cdata": "nan" }]
+        },
+        {
+          "type": "element",
+          "name": "_accesskey_state",
+          "elements": [{ "type": "cdata", "cdata": "nan" }]
+        },
+        {
+          "type": "element",
+          "name": "_cacheUsed",
+          "elements": [{ "type": "cdata", "cdata": "no" }]
+        }
+      ]
+    }
+  ]
+}

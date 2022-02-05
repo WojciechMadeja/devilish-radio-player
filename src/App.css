@@ -1,0 +1,46 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+.App {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #E5E5E5;
+  text-align: center;
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.App-radio-logo {
+  margin: 5%;
+  border-radius: 50%;
+  height: 155px;
+  width: 155px;
+}
+.App-radio-play-panel {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  align-items: center;
+}
+.App-play-button {
+  border: none;
+  border-radius: 50%;
+  margin-top: 50%;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-style: none;
+  background: transparent url(./assets/images/button-play.svg) no-repeat center top;
+}
+
+.transform {  
+  transition: all 1s ease-in-out;
+}
+
+.transform-active {
+  transition: all 1s ease-in-out;
+  background: transparent url(./assets/images/button-stop.svg) no-repeat center top;
+}
