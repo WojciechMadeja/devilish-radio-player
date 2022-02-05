@@ -21,7 +21,7 @@ function App() {
       .then((response) => {
         setRadioImage(response.data.basic.logo);
         setRadioTitle(response.data.basic.title);
-      });
+      },[]);
     Howler.volume(0.8);
   });
   return (

@@ -7,7 +7,7 @@ function OnAirInfo() {
   const [song, setSong] = useState();
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("https://onair.play.cz/json/casrock.json")
+      fetch("http://onair.play.cz/json/casrock.json")
         .then((response) => response.json())
         .then((response) => {
           setImage(response.img);
@@ -18,7 +18,7 @@ function OnAirInfo() {
       console.log("This will run every second!");
     }, 5000);
     return () => clearInterval(interval);
-  });
+  }, []);
 
   return (
       <div className='OnAirInfo'>
@@ -26,7 +26,7 @@ function OnAirInfo() {
           process.env.PUBLIC_URL+"/images/unknown-cover.png" : 
           (image.substring(0,27) === 'https://api.play.cz/static/') 
           ? process.env.PUBLIC_URL+"/images/unknown-cover.png" : image } alt='Artist' />
-        <p className="OnAirInfo-artist">{artist ? (artist === 'Pravé Rockové Rádio') ? 'Unknown Artist' : artist : 'Unknown Artist'}</p>
+        <p className="OnAirInfo-artist">{!artist ? 'Unknown Artist' : (artist === 'Pravé Rockové Rádio') ? 'Unknown Artist' : artist}</p>
         <p>{!song ? 'Unknown Song' : song}</p>
       </div>
   );
