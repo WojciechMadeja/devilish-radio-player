@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import jsonp from "fetch-jsonp";
 import OnAirInfo from "./OnAirInfo";
 const sound = new Howl({
-  src: ["http://icecast6.play.cz/casrock128.mp3"],
+  src: ["https://icecast6.play.cz/casrock128.mp3"],
   html5: true,
   load: true
 });
@@ -16,7 +16,7 @@ function App() {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    jsonp("http://api.play.cz/jsonp/getRadioInfo/casrock")
+    jsonp("https://api.play.cz/jsonp/getRadioInfo/casrock")
       .then((response) => response.json())
       .then((response) => {
         setRadioImage(response.data.basic.logo);

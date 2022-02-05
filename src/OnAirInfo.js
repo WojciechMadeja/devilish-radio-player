@@ -7,7 +7,7 @@ function OnAirInfo() {
   const [song, setSong] = useState();
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("http://onair.play.cz/json/casrock.json")
+      fetch("https://onair.play.cz/json/casrock.json")
         .then((response) => response.json())
         .then((response) => {
           setImage(response.img);
