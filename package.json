@@ -2,7 +2,7 @@
   "name": "devilish-radio-player",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://WojciechMadeja.github.io",
+  "homepage": "https://WojciechMadeja.github.io/devilish-radio-player",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
