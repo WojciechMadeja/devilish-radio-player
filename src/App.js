@@ -26,7 +26,7 @@ function App() {
   }, []);
   return (
     <div className='App'>
-      <img className='App-radio-logo' src={!radioImage ? process.env.PUBLIC_URL+'images/radio-logo.png' : radioImage} alt='logo' />
+      <img className='App-radio-logo' src={!radioImage ? process.env.PUBLIC_URL+'/images/radio-logo.png' : radioImage} alt='logo' />
       <h2>{radioTitle}</h2>
       <div className='App-radio-list'></div>
       <OnAirInfo />
