@@ -24,7 +24,7 @@ function OnAirInfo() {
       <div className='OnAirInfo'>
         <img className='OnAirInfo-image' src={!image ?
           process.env.PUBLIC_URL+"/images/unknown-cover.png" : 
-          (image.substring(0,27) === 'https://api.play.cz/static/') 
+          (image.substring(0,27) === 'http://api.play.cz/static/') 
           ? process.env.PUBLIC_URL+"/images/unknown-cover.png" : image } alt='Artist' />
         <p className="OnAirInfo-artist">{!artist ? 'Unknown Artist' : (artist === 'Pravé Rockové Rádio') ? 'Unknown Artist' : artist}</p>
         <p>{!song ? 'Unknown Song' : song}</p>
