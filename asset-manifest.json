@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/devilish-radio-player/static/css/main.b4faee42.css",
-    "main.js": "/devilish-radio-player/static/js/main.b0fade65.js",
+    "main.js": "/devilish-radio-player/static/js/main.b5c9a629.js",
     "static/js/787.3b32bdb5.chunk.js": "/devilish-radio-player/static/js/787.3b32bdb5.chunk.js",
     "static/media/button-play.svg": "/devilish-radio-player/static/media/button-play.600fcc05168227614a1b.svg",
     "static/media/button-stop.svg": "/devilish-radio-player/static/media/button-stop.1f3d32658801fe422ad2.svg",
     "index.html": "/devilish-radio-player/index.html",
     "main.b4faee42.css.map": "/devilish-radio-player/static/css/main.b4faee42.css.map",
-    "main.b0fade65.js.map": "/devilish-radio-player/static/js/main.b0fade65.js.map",
+    "main.b5c9a629.js.map": "/devilish-radio-player/static/js/main.b5c9a629.js.map",
     "787.3b32bdb5.chunk.js.map": "/devilish-radio-player/static/js/787.3b32bdb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4faee42.css",
-    "static/js/main.b0fade65.js"
+    "static/js/main.b5c9a629.js"
   ]
 }
